@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        
+        .menu {
+            list-style-type: none;
+            padding-right: 10px;
+            border-right: 1px solid #ffffff;
+
+            >li{
+                display: inline-block;
+                >a{
+                    display: block;
+                    font-size: 16px;
+                    color: black;
+                    padding: 0 7px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            
+            > button {
+                cursor: pointer;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                
+            }
+            .login-button {
+                font-size: 16px;
+                color: black;
+                padding: 0 7px;
+            }
+            .sing-up-button {
+                font-size: 16px;
+                color: black;
+                padding: 2px 4px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+}
